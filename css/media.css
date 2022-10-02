@@ -801,6 +801,10 @@
 
   /* about us */
 
+.about {
+  margin-bottom: 61px;
+}
+
   .about__title {
     margin-bottom: 20px;
   }
@@ -1028,7 +1032,8 @@
     width: 52%;
   }
 
-  .footer__logo {
+  .footer__logo,
+  .footer__logo img {
     max-height: 42px;
     margin-bottom: 11px;
   }
@@ -1050,6 +1055,7 @@
     width: 100%;
     position: relative;
     margin-bottom: 32px;
+    padding-top: 0;
 
   }
 
@@ -1067,7 +1073,7 @@
   }
 
   .form__input {
-    padding: 13px 24px 15px 19px;
+    padding: 14px 24px 14px 20px;
     font-size: 14px;
     line-height: 32px;
   }
@@ -1086,7 +1092,7 @@
 
   .form__btn {
     margin-right: 0;
-    margin-bottom: 11px;
+    margin-bottom: 13px;
     font-size: 12px;
     line-height: 15px;
     padding: 12px 28px;
