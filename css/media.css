@@ -126,17 +126,19 @@
   }
 
   .burger span {
+    z-index: -1;
     position: absolute;
     top: 10px;
     left: 0;
     width: 100%;
     height: 3px;
     background-color: var(--text-color);
-    transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
+    transition: left 0.1s ease-in-out, width 0.1s ease-in-out;
   }
 
   .burger::before,
   .burger::after {
+    z-index: -1;
     content: "";
     position: absolute;
     left: 0;
@@ -144,7 +146,7 @@
     width: 100%;
     height: 3px;
     background-color: var(--text-color);
-    transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
+    transition: left 0.1s ease-in-out, width 0.1s ease-in-out;
   }
 
   .burger::before {

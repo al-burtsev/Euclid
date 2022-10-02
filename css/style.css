@@ -188,6 +188,7 @@ header {
 }
 
 .burger-open {
+  z-index: 100;
   width: 30px;
   height: 23px;
   border: transparent;
@@ -215,9 +216,13 @@ header {
   width: 34%;
 }
 
+.logo-link {
+  display: inline-block;
+}
+
 .logo-link:focus {
   outline-offset: 5px;
-  outline: 2px solid var(--main-color);
+  outline: transparent;
 }
 
 .nav {
