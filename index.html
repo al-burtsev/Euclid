@@ -5,15 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/img/favicons/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="/css/accordion.min.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-icon-180x180.png">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="stylesheet" href="/css/media.css">
+  <link rel="stylesheet" href="css/accordion.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/media.css">
   <title>Евклид - проектные системы</title>
 </head>
 
@@ -24,8 +28,12 @@
         <div class="header-logo">
           <a class="logo-link" href="/">
             <picture class="logo">
-              <source srcset="/img/Logo2x.png 2x">
-              <img src="/img/Logo.png" alt="Логотип сайта Евклид - проектные системы">
+              <source srcset="img/logo/Logo.webp">
+              <source srcset="img/logo/Logo-1024.png" media="(max-width: 1024px)">
+              <source srcset="img/logo/Logo-1024.webp" media="(max-width: 1024px)">
+              <source srcset="img/logo/Logo-320.png" media="(max-width: 320px)">
+              <source srcset="img/logo/Logo-320.webp" media="(max-width: 320px)">
+              <img src="img/logo/Logo.png" alt="Логотип сайта Евклид - проектные системы">
             </picture>
           </a>
         </div>
@@ -212,8 +220,10 @@
         <div class="footer__menu">
           <a class="logo-link" href="/">
             <picture class="footer__logo">
-              <source srcset="/img/logo-footer-2x.png 2x">
-              <img src="/img/logo-footer.png" alt="логотип сайта Евклид - проектные системы">
+              <source srcset="img/logo/Logo-footer.webp">
+              <source srcset="/img/logo/Logo-320.png" media="(max-width: 320px)">
+              <source srcset="/img/logo/Logo-320.webp" media="(max-width: 320px)">
+              <img src="img/logo-footer.png" alt="логотип сайта Евклид - проектные системы">
             </picture>
           </a>
           <nav class="nav footer__nav">
@@ -257,10 +267,10 @@
         <p class="footer__descr">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.</p>
       </div>
     </footer>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/js/accordion.min.js"></script>
-    <script src="/js/script.js"></script>
   </div>
+  <script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="js/accordion.min.js"></script>
+  <script defer src="js/script.js"></script>
 </body>
 
 </html>
